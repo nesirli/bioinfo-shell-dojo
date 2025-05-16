@@ -42,10 +42,12 @@ Each iteration assigns one file name to filename, then runs the two commands.
 echo is used here purely so we can see which file is being processed (a simple debugging trick).
 
 ### Good Practices
-Variable names - Use descriptive names (filename, not x). They don’t affect execution but do affect readability.
+Variable names - Use descriptive names (filename, not x). 
+They don’t affect execution but do affect readability.
 Prompt vs. Operators - $ and > are prompts when printed by the shell and operators when you type them.
 Quoting	- Quote $var if the value may contain spaces: "$filename".
-Wildcards - inside loops	*.pdb is expanded each time it appears. Write ls "$datafile", not ls *.pdb, if you want one file per iteration.
+Wildcards - inside loops	*.pdb is expanded each time it appears. 
+Write ls "$datafile", not ls *.pdb, if you want one file per iteration.
 Redirection	- > overwrites; >> appends. Misplacing them inside a loop can clobber data.
 Dry‑runs - Replace the real command with echo … inside the loop to preview actions safely.
 History shortcuts - ↑ arrow, Ctrl + R, !!, !$, and history help you re‑use or edit long loops quickly.

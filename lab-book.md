@@ -11,7 +11,7 @@
 ## Episode 1 · Introducing the Shell
 
 | Concept              | Key Points                                                                                                                                      |
-| -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------- | -----------------------------------------------------
 | **What is a shell?** | A command‑line interpreter that lets us type text commands to the computer, ideal for **automation**, **reproducibility**, and **remote work**. |
 | **Command anatomy**  | `command [options] [arguments]` — e.g. `ls -l /home/nasir`.                                                                                     |
 | **Prompt & Cursor**  | The **prompt** (e.g. `$`) tells us the shell is ready; typing executes when we press **Enter**.                                                 |
