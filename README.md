@@ -29,6 +29,8 @@ environment (Linux, macOS, or Windows + WSL).
 
 ### Usage
 
+![Docker build](https://github.com/nesirli/bioinfo-shell-dojo/actions/workflows/docker.yml/badge.svg)
+
 1. **Notes:** Open the Markdown files and work through the examples in your own
    terminal.
 2. **Run `loops.sh`:**

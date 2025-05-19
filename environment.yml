@@ -1,0 +1,10 @@
+name: bio-core
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - mamba                    # faster conda
+  - samtools
+  - bedtools
+  - pip                      # optional

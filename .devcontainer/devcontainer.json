@@ -1,0 +1,10 @@
+{
+  "name": "bioinfo-shell-dojo",
+  "context": "..",
+  "dockerFile": "../Dockerfile",
+  "runArgs": ["-e", "TZ=Asia/Baku"],
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  },
+  "postCreateCommand": "samtools --version && bedtools --version"
+}
